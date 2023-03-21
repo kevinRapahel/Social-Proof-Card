@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    /* max-width: 400px; */
+}
+
+.top-back{
+    background-image: url(/images/bg-pattern-top-mobile.svg);
+    width: 100%;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.down-back{
+    background-image: url(/images/bg-pattern-bottom-mobile.svg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: -270px 80px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: bolder;
+    color: hsl(300, 43%, 22%);
+}
+
+.card-text{
+    margin: 30px auto;
+    line-height: 23px;
+    color: hsl(303, 10%, 53%);
+}
+
+.all{
+    margin-bottom: 50px;
+}
+
+.all1{
+    background: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.allstar{
+    margin: 8px;
+}
+
+.allstar img{
+    margin: 2px;
+}
+
+.review{
+    font-size: 15px;
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+}
+
+.card{
+    background: hsl(300, 43%, 22%);
+    margin: 20px;
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.innercard{
+    margin-left: 20px;
+}
+
+.text{
+    font-size: 23px;
+}
+
+.buyer{
+    color: hsl(333, 80%, 67%);
+    margin-top: 2px;
+}
+
+.message{
+    line-height: 26px;
+}
+
+.card-text1{
+    display: none;
+}
+
+.message1{
+    display: none;
+}
+
+.top-back1{
+    display: none;
+}
+
+.down-back1{
+    display: none;
+}
+
+@media screen and (min-width:700px) {
+
+    .card-text{
+        display: none;
+    }
+
+    .top-back{
+        display: none;
+    }
+
+    
+    .down-back{
+        display: none;
+    }
+    
+    .message{
+        display: none;
+    }
+    
+    .container{
+        margin: 50px;
+        margin-top: -350px;
+    }
+    
+    .down-back1{
+        display: block;
+        background-image: url(/images/bg-pattern-bottom-desktop.svg);
+        width: 100%;
+        height: 1030px;
+        position: relative;
+        right: -350px;
+        margin-top: -600px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .top-back1{
+        display: block;
+        background-image: url(/images/bg-pattern-top-desktop.svg);
+        width: 100%;
+        height: 430px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .card-text1{
+        display: block;
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 30px;
+        color: hsl(303, 10%, 53%);
+    }
+
+    .message1{
+        display: block;
+    }
+
+    .nav{
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        margin: 50px 150px 50px 50px;
+    }
+
+    .all{
+        position: relative;
+        z-index: 99;
+    }
+
+    .all1{
+        display: flex;
+        /* position: relative; */
+    }
+
+    .review{
+        margin: 10px 50px 0 10px;
+        font-size: 18px;
+        font-weight: 600;
+        color: hsl(300, 43%, 22%);
+    }
+
+    .stars{
+        position: relative;
+        right: -40px;
+    }
+
+    .stars1{
+        position: relative;
+        right: -120px;
+    }
+
+    .allcard{
+        display: flex;
+        position: relative;
+        margin-top: 130px;
+    }
+
+    .message1{
+        line-height: 26px;
+    }
+
+    .card{
+        padding: 50px;
+    }
+
+    .card1{
+        position: absolute;
+        margin: -50px 0 0 25px;
+    }
+    
+    .card2{
+       position: absolute;
+       margin: -20px 0 0 500px;
+    }
+
+    .card3{
+        position: absolute;
+        margin: 30px 0 30px 965px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
